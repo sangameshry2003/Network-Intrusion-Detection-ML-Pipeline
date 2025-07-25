@@ -1,0 +1,107 @@
+{
+  "model_name": "SVM",
+  "model_type": "SGD-SVM",
+  "accuracy": 0.9248112769647961,
+  "cv_mean": 0.9272199831414388,
+  "cv_std": 0.002378371669627155,
+  "cv_scores": [
+    0.9304613907721846,
+    0.9248215035699286,
+    0.9263770550822032
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9672575536062378,
+      "recall": 0.8867821789090097,
+      "f1-score": 0.9252733325078121,
+      "support": 214869.0
+    },
+    "1": {
+      "precision": 0.885432659250817,
+      "recall": 0.9668313954983262,
+      "f1-score": 0.924343471837443,
+      "support": 194461.0
+    },
+    "accuracy": 0.9248112769647961,
+    "macro avg": {
+      "precision": 0.9263451064285274,
+      "recall": 0.9268067872036679,
+      "f1-score": 0.9248084021726275,
+      "support": 409330.0
+    },
+    "weighted avg": {
+      "precision": 0.9283848817247499,
+      "recall": 0.9248112769647961,
+      "f1-score": 0.924831582243183,
+      "support": 409330.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      190542,
+      24327
+    ],
+    [
+      6450,
+      188011
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "PSH Flag Cnt",
+      "importance": 12.452672397098425,
+      "std": 0.0
+    },
+    {
+      "feature": "Bwd Pkts/s",
+      "importance": 2.502472425365068,
+      "std": 0.0
+    },
+    {
+      "feature": "ACK Flag Cnt",
+      "importance": 2.208928130731049,
+      "std": 0.0
+    },
+    {
+      "feature": "Flow IAT Mean",
+      "importance": 1.9093916939956153,
+      "std": 0.0
+    },
+    {
+      "feature": "Bwd Pkt Len Mean",
+      "importance": 1.7161200425171794,
+      "std": 0.0
+    },
+    {
+      "feature": "Tot Bwd Pkts",
+      "importance": 1.5499642423511315,
+      "std": 0.0
+    },
+    {
+      "feature": "Flow Duration",
+      "importance": 0.794460849977792,
+      "std": 0.0
+    },
+    {
+      "feature": "Fwd Pkt Len Mean",
+      "importance": 0.3281968957789767,
+      "std": 0.0
+    },
+    {
+      "feature": "Tot Fwd Pkts",
+      "importance": 0.2542431890913241,
+      "std": 0.0
+    },
+    {
+      "feature": "Fwd Pkts/s",
+      "importance": 0.19085606553135054,
+      "std": 0.0
+    }
+  ],
+  "training_time_seconds": 0.3805837631225586,
+  "prediction_time_seconds": 0.025240182876586914,
+  "cv_sample_size": 50000,
+  "total_training_samples": 1637316,
+  "C": 1.0,
+  "alpha": 0.0001
+}

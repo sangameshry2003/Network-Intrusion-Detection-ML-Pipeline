@@ -1,0 +1,92 @@
+{
+  "model_name": "XGBoost",
+  "accuracy": 0.9962011091295532,
+  "cv_mean": 0.9963922663165313,
+  "cv_std": 9.625361021031591e-05,
+  "cv_scores": [
+    0.9964759485012092,
+    0.9963171411732012,
+    0.9965064755407481,
+    0.9962499580105233,
+    0.9964118083569746
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9991108781715912,
+      "recall": 0.9936472920709828,
+      "f1-score": 0.9963715953080411,
+      "support": 214869.0
+    },
+    "1": {
+      "precision": 0.9930227565478746,
+      "recall": 0.9990229403325088,
+      "f1-score": 0.9960138119493357,
+      "support": 194461.0
+    },
+    "accuracy": 0.9962011091295532,
+    "macro avg": {
+      "precision": 0.9960668173597329,
+      "recall": 0.9963351162017458,
+      "f1-score": 0.9961927036286884,
+      "support": 409330.0
+    },
+    "weighted avg": {
+      "precision": 0.9962185853538902,
+      "recall": 0.9962011091295532,
+      "f1-score": 0.9962016226460881,
+      "support": 409330.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      213504,
+      1365
+    ],
+    [
+      190,
+      194271
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "PSH Flag Cnt",
+      "importance": 0.5853772759437561
+    },
+    {
+      "feature": "Fwd Pkts/s",
+      "importance": 0.14344899356365204
+    },
+    {
+      "feature": "Bwd Pkt Len Mean",
+      "importance": 0.10844869166612625
+    },
+    {
+      "feature": "Flow Duration",
+      "importance": 0.04726889729499817
+    },
+    {
+      "feature": "Tot Fwd Pkts",
+      "importance": 0.03373240679502487
+    },
+    {
+      "feature": "Tot Bwd Pkts",
+      "importance": 0.02248455584049225
+    },
+    {
+      "feature": "Flow IAT Mean",
+      "importance": 0.02067546173930168
+    },
+    {
+      "feature": "ACK Flag Cnt",
+      "importance": 0.014134565368294716
+    },
+    {
+      "feature": "Fwd Pkt Len Mean",
+      "importance": 0.012529879808425903
+    },
+    {
+      "feature": "Bwd Pkts/s",
+      "importance": 0.011899232864379883
+    }
+  ]
+}

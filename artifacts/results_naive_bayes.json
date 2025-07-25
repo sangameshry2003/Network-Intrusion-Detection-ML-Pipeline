@@ -1,0 +1,180 @@
+{
+  "model_name": "Naive_Bayes",
+  "accuracy": 0.8576307624654924,
+  "cv_mean": 0.8573305337579074,
+  "cv_std": 0.00010946256777034568,
+  "cv_scores": [
+    0.8571201719883712,
+    0.8573670918546523,
+    0.8573457153938002,
+    0.8574373287974519,
+    0.8573823607552609
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.7873719522713676,
+      "recall": 0.998399024521918,
+      "f1-score": 0.8804168051776429,
+      "support": 214869.0
+    },
+    "1": {
+      "precision": 0.9974867212671601,
+      "recall": 0.7020893649626403,
+      "f1-score": 0.8241170540904345,
+      "support": 194461.0
+    },
+    "accuracy": 0.8576307624654924,
+    "macro avg": {
+      "precision": 0.8924293367692638,
+      "recall": 0.8502441947422792,
+      "f1-score": 0.8522669296340386,
+      "support": 409330.0
+    },
+    "weighted avg": {
+      "precision": 0.8871914819752514,
+      "recall": 0.8576307624654924,
+      "f1-score": 0.8536704003302834,
+      "support": 409330.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      214525,
+      344
+    ],
+    [
+      57932,
+      136529
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "PSH Flag Cnt",
+      "importance": 0.32670608066840945,
+      "std": 0.000499272993018617
+    },
+    {
+      "feature": "Flow Duration",
+      "importance": 0.013325434246207246,
+      "std": 0.00015989445906541307
+    },
+    {
+      "feature": "Fwd Pkts/s",
+      "importance": 0.0017123103608335688,
+      "std": 7.996878278865989e-05
+    },
+    {
+      "feature": "Flow IAT Mean",
+      "importance": 0.0013732196516258455,
+      "std": 4.8841395690174124e-05
+    },
+    {
+      "feature": "Tot Fwd Pkts",
+      "importance": 0.0006285881806855409,
+      "std": 4.420510173858584e-05
+    },
+    {
+      "feature": "Bwd Pkt Len Mean",
+      "importance": 0.0005022842205555711,
+      "std": 3.582498772107148e-05
+    },
+    {
+      "feature": "Tot Bwd Pkts",
+      "importance": 0.00033029584931476563,
+      "std": 3.854705577078341e-05
+    },
+    {
+      "feature": "Bwd Pkts/s",
+      "importance": 0.00014975691984466799,
+      "std": 1.2363209077154883e-05
+    },
+    {
+      "feature": "Fwd Pkt Len Mean",
+      "importance": 6.840446583467052e-06,
+      "std": 4.058644058790243e-06
+    },
+    {
+      "feature": "ACK Flag Cnt",
+      "importance": 4.397429946512155e-06,
+      "std": 1.8281862491122345e-06
+    }
+  ],
+  "n_classes": 2,
+  "classes": [
+    0,
+    1
+  ],
+  "var_smoothing": 1e-09,
+  "class_statistics": [
+    {
+      "Feature": "Flow Duration",
+      "Benign_Mean": -0.10109377687536172,
+      "Malicious_Mean": 0.11119124309071811,
+      "Benign_Var": 0.22941638157989888,
+      "Malicious_Var": 1.8253707998118085
+    },
+    {
+      "Feature": "Tot Fwd Pkts",
+      "Benign_Mean": -0.03302496693767882,
+      "Malicious_Mean": 0.036050654830834895,
+      "Benign_Var": 0.08166928826219196,
+      "Malicious_Var": 1.9871634374644296
+    },
+    {
+      "Feature": "Tot Bwd Pkts",
+      "Benign_Mean": -0.01422408151270394,
+      "Malicious_Mean": 0.015108697453225961,
+      "Benign_Var": 0.06936881409682658,
+      "Malicious_Var": 1.8820177165844072
+    },
+    {
+      "Feature": "Fwd Pkt Len Mean",
+      "Benign_Mean": 0.14941234240873566,
+      "Malicious_Mean": -0.16510633291410826,
+      "Benign_Var": 1.0293186944313928,
+      "Malicious_Var": 0.9134835960332501
+    },
+    {
+      "Feature": "Bwd Pkt Len Mean",
+      "Benign_Mean": 0.1538109675147527,
+      "Malicious_Mean": -0.16985733783457707,
+      "Benign_Var": 1.1148490866912404,
+      "Malicious_Var": 0.8188631668987743
+    },
+    {
+      "Feature": "Flow IAT Mean",
+      "Benign_Mean": 0.061831648809439914,
+      "Malicious_Mean": -0.06949242857018759,
+      "Benign_Var": 1.245609550018393,
+      "Malicious_Var": 0.713953635834197
+    },
+    {
+      "Feature": "Fwd Pkts/s",
+      "Benign_Mean": -0.02163154079509826,
+      "Malicious_Mean": 0.024976625636874576,
+      "Benign_Var": 0.017850245632580135,
+      "Malicious_Var": 2.160627909743969
+    },
+    {
+      "Feature": "Bwd Pkts/s",
+      "Benign_Mean": 0.01000984622704554,
+      "Malicious_Mean": -0.01118345201105464,
+      "Benign_Var": 1.271520991072255,
+      "Malicious_Var": 0.6751038655695123
+    },
+    {
+      "Feature": "PSH Flag Cnt",
+      "Benign_Mean": -0.6737179214854104,
+      "Malicious_Mean": 0.7439774070590777,
+      "Benign_Var": 0.03839939429156284,
+      "Malicious_Var": 1.0067173969165963
+    },
+    {
+      "Feature": "ACK Flag Cnt",
+      "Benign_Mean": 0.033151680162170585,
+      "Malicious_Mean": -0.03684990187217592,
+      "Benign_Var": 0.9967426325941795,
+      "Malicious_Var": 1.001041192393699
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "model_name": "Random_Forest",
+  "accuracy": 0.9962548554955659,
+  "cv_mean": 0.9964148642782416,
+  "cv_std": 0.00011061415751423345,
+  "cv_scores": [
+    0.9964942711259863,
+    0.9963049260527144,
+    0.9965919813841564,
+    0.9963232487334447,
+    0.9963598940949053
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.999283848681439,
+      "recall": 0.9935774820937409,
+      "f1-score": 0.9964224955718757,
+      "support": 214869.0
+    },
+    "1": {
+      "precision": 0.9929479579739177,
+      "recall": 0.9992132098467045,
+      "f1-score": 0.9960707319511264,
+      "support": 194461.0
+    },
+    "accuracy": 0.9962548554955659,
+    "macro avg": {
+      "precision": 0.9961159033276783,
+      "recall": 0.9963953459702226,
+      "f1-score": 0.996246613761501,
+      "support": 409330.0
+    },
+    "weighted avg": {
+      "precision": 0.9962738478437889,
+      "recall": 0.9962548554955659,
+      "f1-score": 0.9962553827156116,
+      "support": 409330.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      213489,
+      1380
+    ],
+    [
+      153,
+      194308
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "PSH Flag Cnt",
+      "importance": 0.2600940455437241
+    },
+    {
+      "feature": "Fwd Pkts/s",
+      "importance": 0.22425882359134325
+    },
+    {
+      "feature": "Tot Fwd Pkts",
+      "importance": 0.14251175600691432
+    },
+    {
+      "feature": "Flow Duration",
+      "importance": 0.09735365288801484
+    },
+    {
+      "feature": "Tot Bwd Pkts",
+      "importance": 0.0788401640117899
+    },
+    {
+      "feature": "Bwd Pkt Len Mean",
+      "importance": 0.07507359544508078
+    },
+    {
+      "feature": "Flow IAT Mean",
+      "importance": 0.054146190841490964
+    },
+    {
+      "feature": "Fwd Pkt Len Mean",
+      "importance": 0.03849756669657031
+    },
+    {
+      "feature": "Bwd Pkts/s",
+      "importance": 0.023874485733459124
+    },
+    {
+      "feature": "ACK Flag Cnt",
+      "importance": 0.005349719241612284
+    }
+  ],
+  "n_estimators": 100,
+  "max_depth": 10
+}

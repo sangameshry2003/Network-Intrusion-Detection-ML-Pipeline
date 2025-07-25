@@ -1,0 +1,120 @@
+{
+  "model_name": "Logistic_Regression",
+  "accuracy": 0.9328878899665307,
+  "cv_mean": 0.9330795031521213,
+  "cv_std": 0.0003263274509376572,
+  "cv_scores": [
+    0.9332964844990594,
+    0.9330916775330342,
+    0.9329450960871916,
+    0.9325511584514892,
+    0.9335130991898322
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9692645939340518,
+      "recall": 0.9007115963680196,
+      "f1-score": 0.9337315247466474,
+      "support": 214869.0
+    },
+    "1": {
+      "precision": 0.8982438065802402,
+      "recall": 0.9684409727400353,
+      "f1-score": 0.9320224983235136,
+      "support": 194461.0
+    },
+    "accuracy": 0.9328878899665307,
+    "macro avg": {
+      "precision": 0.933754200257146,
+      "recall": 0.9345762845540274,
+      "f1-score": 0.9328770115350805,
+      "support": 409330.0
+    },
+    "weighted avg": {
+      "precision": 0.9355246449207629,
+      "recall": 0.9328878899665307,
+      "f1-score": 0.9329196150716443,
+      "support": 409330.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      193535,
+      21334
+    ],
+    [
+      6137,
+      188324
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "PSH Flag Cnt",
+      "coefficient": 28.28390828825197,
+      "abs_coefficient": 28.28390828825197
+    },
+    {
+      "feature": "ACK Flag Cnt",
+      "coefficient": 5.216603386428364,
+      "abs_coefficient": 5.216603386428364
+    },
+    {
+      "feature": "Flow IAT Mean",
+      "coefficient": -4.808371148453777,
+      "abs_coefficient": 4.808371148453777
+    },
+    {
+      "feature": "Bwd Pkt Len Mean",
+      "coefficient": -2.331965909196461,
+      "abs_coefficient": 2.331965909196461
+    },
+    {
+      "feature": "Bwd Pkts/s",
+      "coefficient": -1.1524046055782737,
+      "abs_coefficient": 1.1524046055782737
+    },
+    {
+      "feature": "Flow Duration",
+      "coefficient": -0.9619566295769326,
+      "abs_coefficient": 0.9619566295769326
+    },
+    {
+      "feature": "Fwd Pkt Len Mean",
+      "coefficient": -0.5774592572736801,
+      "abs_coefficient": 0.5774592572736801
+    },
+    {
+      "feature": "Fwd Pkts/s",
+      "coefficient": -0.3413955112709785,
+      "abs_coefficient": 0.3413955112709785
+    },
+    {
+      "feature": "Tot Bwd Pkts",
+      "coefficient": 0.28243323467586384,
+      "abs_coefficient": 0.28243323467586384
+    },
+    {
+      "feature": "Tot Fwd Pkts",
+      "coefficient": -0.13303406162040837,
+      "abs_coefficient": 0.13303406162040837
+    }
+  ],
+  "C": 1.0,
+  "penalty": "l2",
+  "solver": "liblinear",
+  "n_iter": 34,
+  "intercept": 14.067802938756568,
+  "roc_auc": 0.977657400363076,
+  "coefficients": [
+    -0.9619566295769326,
+    -0.13303406162040837,
+    0.28243323467586384,
+    -0.5774592572736801,
+    -2.331965909196461,
+    -4.808371148453777,
+    -0.3413955112709785,
+    -1.1524046055782737,
+    28.28390828825197,
+    5.216603386428364
+  ]
+}

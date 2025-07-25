@@ -1,0 +1,111 @@
+{
+  "model_name": "ANN",
+  "accuracy": 0.9952703197908778,
+  "cv_mean": 0.9954462058167353,
+  "cv_std": 7.815560231113417e-05,
+  "cv_scores": [
+    0.9955231720128014,
+    0.99535825421498,
+    0.9954559751788752,
+    0.9953552004348583,
+    0.9955384272421617
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9984410039372843,
+      "recall": 0.9925396404320772,
+      "f1-score": 0.9954815762203946,
+      "support": 214869.0
+    },
+    "1": {
+      "precision": 0.9918101884729552,
+      "recall": 0.9982875743722391,
+      "f1-score": 0.9950383400992332,
+      "support": 194461.0
+    },
+    "accuracy": 0.9952703197908778,
+    "macro avg": {
+      "precision": 0.9951255962051198,
+      "recall": 0.9954136074021582,
+      "f1-score": 0.9952599581598138,
+      "support": 409330.0
+    },
+    "weighted avg": {
+      "precision": 0.9952908927653474,
+      "recall": 0.9952703197908778,
+      "f1-score": 0.9952710073899713,
+      "support": 409330.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      213266,
+      1603
+    ],
+    [
+      333,
+      194128
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "PSH Flag Cnt",
+      "importance": 0.3847780519385337,
+      "std": 0.000558925474656023
+    },
+    {
+      "feature": "Bwd Pkt Len Mean",
+      "importance": 0.09808101043168102,
+      "std": 0.00021597496834664431
+    },
+    {
+      "feature": "Fwd Pkt Len Mean",
+      "importance": 0.09198519531918012,
+      "std": 0.0002788659349487957
+    },
+    {
+      "feature": "ACK Flag Cnt",
+      "importance": 0.09192509710991131,
+      "std": 0.00029877614051422715
+    },
+    {
+      "feature": "Flow IAT Mean",
+      "importance": 0.03922312070945203,
+      "std": 0.00035549174457228484
+    },
+    {
+      "feature": "Tot Fwd Pkts",
+      "importance": 0.03555517553074535,
+      "std": 0.00021894608958157886
+    },
+    {
+      "feature": "Flow Duration",
+      "importance": 0.03506852661666625,
+      "std": 0.0002618138882780532
+    },
+    {
+      "feature": "Tot Bwd Pkts",
+      "importance": 0.018051938533701396,
+      "std": 0.00020597919220356536
+    },
+    {
+      "feature": "Bwd Pkts/s",
+      "importance": 0.01552903525273005,
+      "std": 0.00012811403790984893
+    },
+    {
+      "feature": "Fwd Pkts/s",
+      "importance": 0.008998607480516929,
+      "std": 0.00011056479019052759
+    }
+  ],
+  "hidden_layer_sizes": [
+    100,
+    50
+  ],
+  "activation": "relu",
+  "solver": "adam",
+  "n_iter": 24,
+  "n_layers": 4,
+  "loss": 0.016561031268421993
+}

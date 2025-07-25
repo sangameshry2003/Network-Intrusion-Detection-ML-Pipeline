@@ -1,0 +1,75 @@
+{
+  "best_model": "Random_Forest",
+  "best_accuracy": 0.9962548554955659,
+  "top_features": [
+    "PSH Flag Cnt",
+    "Fwd Pkts/s",
+    "Tot Fwd Pkts"
+  ],
+  "all_models_performance": [
+    {
+      "Model": "Random_Forest",
+      "Test_Accuracy": 0.9962548554955659,
+      "CV_Mean": 0.9964148642782416,
+      "CV_Std": 0.00011061415751423345,
+      "Precision": 0.9929479579739177,
+      "Recall": 0.9992132098467045,
+      "F1_Score": 0.9960707319511264
+    },
+    {
+      "Model": "XGBoost",
+      "Test_Accuracy": 0.9962011091295532,
+      "CV_Mean": 0.9963922663165313,
+      "CV_Std": 9.625361021031591e-05,
+      "Precision": 0.9930227565478746,
+      "Recall": 0.9990229403325088,
+      "F1_Score": 0.9960138119493357
+    },
+    {
+      "Model": "Decision_Tree",
+      "Test_Accuracy": 0.9955341655876676,
+      "CV_Mean": 0.995715548736678,
+      "CV_Std": 0.0006014155495542388,
+      "Precision": 0.992176601343928,
+      "Recall": 0.9984727014671322,
+      "F1_Score": 0.9953146946349666
+    },
+    {
+      "Model": "ANN",
+      "Test_Accuracy": 0.9952703197908778,
+      "CV_Mean": 0.9954462058167353,
+      "CV_Std": 7.815560231113417e-05,
+      "Precision": 0.9918101884729552,
+      "Recall": 0.9982875743722391,
+      "F1_Score": 0.9950383400992332
+    },
+    {
+      "Model": "Logistic_Regression",
+      "Test_Accuracy": 0.9328878899665307,
+      "CV_Mean": 0.9330795031521213,
+      "CV_Std": 0.0003263274509376572,
+      "Precision": 0.8982438065802402,
+      "Recall": 0.9684409727400353,
+      "F1_Score": 0.9320224983235136
+    },
+    {
+      "Model": "SVM",
+      "Test_Accuracy": 0.9248112769647961,
+      "CV_Mean": 0.9272199831414388,
+      "CV_Std": 0.002378371669627155,
+      "Precision": 0.885432659250817,
+      "Recall": 0.9668313954983262,
+      "F1_Score": 0.924343471837443
+    },
+    {
+      "Model": "Naive_Bayes",
+      "Test_Accuracy": 0.8576307624654924,
+      "CV_Mean": 0.8573305337579074,
+      "CV_Std": 0.00010946256777034568,
+      "Precision": 0.9974867212671601,
+      "Recall": 0.7020893649626403,
+      "F1_Score": 0.8241170540904345
+    }
+  ],
+  "total_models_trained": 7
+}

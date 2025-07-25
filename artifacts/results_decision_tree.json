@@ -1,0 +1,99 @@
+{
+  "model_name": "Decision_Tree",
+  "accuracy": 0.9955341655876676,
+  "cv_mean": 0.995715548736678,
+  "cv_std": 0.0006014155495542388,
+  "cv_scores": [
+    0.9963202061906041,
+    0.9951628122871897,
+    0.9963293562936881,
+    0.9948635418352608,
+    0.9959018270766469
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9986097783602874,
+      "recall": 0.9928747283228385,
+      "f1-score": 0.9957339954819558,
+      "support": 214869.0
+    },
+    "1": {
+      "precision": 0.992176601343928,
+      "recall": 0.9984727014671322,
+      "f1-score": 0.9953146946349666,
+      "support": 194461.0
+    },
+    "accuracy": 0.9955341655876676,
+    "macro avg": {
+      "precision": 0.9953931898521078,
+      "recall": 0.9956737148949854,
+      "f1-score": 0.9955243450584612,
+      "support": 409330.0
+    },
+    "weighted avg": {
+      "precision": 0.9955535595740312,
+      "recall": 0.9955341655876676,
+      "f1-score": 0.9955347976171368,
+      "support": 409330.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      213338,
+      1531
+    ],
+    [
+      297,
+      194164
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "PSH Flag Cnt",
+      "importance": 0.5598451870246748
+    },
+    {
+      "feature": "Bwd Pkt Len Mean",
+      "importance": 0.20956720707035087
+    },
+    {
+      "feature": "Flow Duration",
+      "importance": 0.14904212538281778
+    },
+    {
+      "feature": "Tot Bwd Pkts",
+      "importance": 0.03692064826995492
+    },
+    {
+      "feature": "Tot Fwd Pkts",
+      "importance": 0.02295268197760773
+    },
+    {
+      "feature": "Fwd Pkt Len Mean",
+      "importance": 0.013047498914377799
+    },
+    {
+      "feature": "Bwd Pkts/s",
+      "importance": 0.002494175550736894
+    },
+    {
+      "feature": "Flow IAT Mean",
+      "importance": 0.0024565503475426184
+    },
+    {
+      "feature": "Fwd Pkts/s",
+      "importance": 0.0021498837300573405
+    },
+    {
+      "feature": "ACK Flag Cnt",
+      "importance": 0.0015240417318793012
+    }
+  ],
+  "tree_depth": 10,
+  "n_leaves": 153,
+  "n_nodes": 305,
+  "criterion": "gini",
+  "max_depth": 10,
+  "min_samples_split": 5,
+  "min_samples_leaf": 2
+}
