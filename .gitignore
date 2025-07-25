@@ -343,6 +343,7 @@ docs/_build/
 
 # Keep sample plots for documentation
 !plots/result.png
+!plots/results.png
 !plots/Roadmap.png
 !plots/methodology_flowchart.png
 !plots/preprocessing_pipeline.png
