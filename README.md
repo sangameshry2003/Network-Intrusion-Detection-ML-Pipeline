@@ -131,7 +131,7 @@ Then open your browser to `http://localhost:5000`
 - **Responsive Design**: Works on desktop and mobile
 - **Status Indicators**: Color-coded threat levels
 
-![Web Dashboard](plots/result.png)
+![Web Dashboard](plots/results.png)
 
 ## 📈 Technical Details
 
